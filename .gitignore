@@ -21,4 +21,26 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+
+# Mac OS local info file
+.DS_Store*
+
+#eclipse:
+target/
+.classpath
+.project
+.settings/
+.mvn/
+
+#python runtime
+__pycache__/
+
+#application runtime:
+temp/
+data/
+
+.idea*
+
+#visual studio code
+.vscode/
+
